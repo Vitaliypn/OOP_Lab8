@@ -20,7 +20,7 @@ jobs:
       - name: Lint Code Base
         uses: github/super-linter/slim@v4
         env:
-          DEFAULT_BRANCH: lab7
+          DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JAVA_FILE_NAME: checkstyle.xml
           FILTER_REGEX_INCLUDE: .*src/main/.*
